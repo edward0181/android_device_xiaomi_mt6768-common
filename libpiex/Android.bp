@@ -1,0 +1,6 @@
+cc_library_shared {
+    name: "libpiex_shim",
+    shared_libs: ["libpiex"],
+    srcs: ["piex_shim.cpp"],
+    vendor: true,
+}
